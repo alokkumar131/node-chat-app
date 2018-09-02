@@ -94,7 +94,7 @@ io.on('connection', (socket) => {
 
 });
 app.use(express.static(publicPath))
-server.listen(port,()=>{
+server.listen(3000,()=>{
  console.log('Server started on port no 3000')
 })
 
